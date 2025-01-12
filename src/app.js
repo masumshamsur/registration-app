@@ -34,7 +34,7 @@ const createTableIfNotExists = async () => {
 };
 
 // Ensure the table is created when the server starts
-//createTableIfNotExists();
+createTableIfNotExists();
 
 // Route to handle registration form submission
 app.post('/register', async (req, res) => {

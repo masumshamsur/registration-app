@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: registration-app
-        image: masum012924/registration-app:v8
+        image: masum012924/registration-app:v6
         ports:
         - containerPort: 3000
 ---
