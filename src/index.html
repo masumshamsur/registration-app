@@ -46,6 +46,10 @@
         // Get the response text and display it in the result div
         const resultText = await response.text();
         document.getElementById('result').innerHTML = resultText;
+
+        // Reset the form fields
+        document.getElementById('registrationForm').reset();
+        
     } catch (error) {
         document.getElementById('result').innerHTML = '<p style="color: red;">Error submitting form. Please try again.</p>';
     }
